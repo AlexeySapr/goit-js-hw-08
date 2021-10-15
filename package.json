@@ -9,7 +9,7 @@
   "browserslist": "> 0.5%, last 3 versions, not dead",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --dist-dir https://github.com/AlexeySapr/goit-js-hw-08.git"
   },
   "repository": {
     "type": "git",
