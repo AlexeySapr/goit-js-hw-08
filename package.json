@@ -27,7 +27,8 @@
   },
   "homepage": "https://alexeysapr.github.io/goit-js-hw-08/",
   "devDependencies": {
-    "parcel": "^2.0.0"
+    "parcel": "^2.0.0",
+    "parcel-plugin-nuke-dist": "^1.0.1"
   },
   "dependencies": {
     "@vimeo/player": "^2.16.1",
