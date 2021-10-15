@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "GoIT JS homework 8 ",
   "main": "index.js",
+  "targets": {
+    "main": false
+  },
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
@@ -24,5 +27,10 @@
   "homepage": "https://github.com/AlexeySapr/goit-js-hw-08#readme",
   "devDependencies": {
     "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.16.1",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.9.0"
   }
 }
